@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="12bbcb6c-fd8b-4ec9-9756-a9513befe3af" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8080/EcommerceSystem?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ProductService.wsdl" MetadataType="Wsdl" ID="a20aea99-afe6-4e9c-bbf9-0e89dadacbec" SourceId="1" SourceUrl="http://localhost:8080/EcommerceSystem?wsdl" />
+    <MetadataFile FileName="EcommerceSystem.xsd" MetadataType="Schema" ID="4d496ab2-47b1-4b91-aa16-5e7feadafe91" SourceId="1" SourceUrl="http://localhost:8080/EcommerceSystem?xsd=xsd2" />
+    <MetadataFile FileName="EcommerceSystem1.xsd" MetadataType="Schema" ID="b995de22-3a5b-4b12-b4de-005358ae3cd9" SourceId="1" SourceUrl="http://localhost:8080/EcommerceSystem?xsd=xsd3" />
+    <MetadataFile FileName="EcommerceSystem2.xsd" MetadataType="Schema" ID="40275a71-591a-4c1b-97af-e712bc4b3ad6" SourceId="1" SourceUrl="http://localhost:8080/EcommerceSystem?xsd=xsd0" />
+    <MetadataFile FileName="EcommerceSystem3.xsd" MetadataType="Schema" ID="750a91d6-e879-434d-96b7-a2bb401fa9a4" SourceId="1" SourceUrl="http://localhost:8080/EcommerceSystem?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
